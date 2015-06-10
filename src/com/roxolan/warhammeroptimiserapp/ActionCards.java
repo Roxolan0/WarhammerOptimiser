@@ -23,7 +23,7 @@ public class ActionCards extends Activity {
 		ArrayList<String> cardNames = AppFileManager.getAllCardNames(this);
 
 		for (int i = 0; i < cardNames.size(); ++i) {
-			// TextView textCardName = new TextView(this);
+			// TextView textCardName = new TextView(this) ;
 			// textCardName.setText(cardNames.get(i) + ":");
 			// textCardName.setLayoutParams(new LayoutParams(
 			// LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
