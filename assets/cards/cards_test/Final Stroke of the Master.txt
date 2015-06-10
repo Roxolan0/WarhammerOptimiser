@@ -1,0 +1,15 @@
+Final Stroke of the Master
+Rec 4
+Chl 4
+S: deal normal damage, gain 4 recharge_this
+SS: deal normal+3 damage
+OO: +deal damage, deal critical
+C: deal 2 damage, deal 4 damage
+AA: deal -1 damage
+--------
+Rec 4
+Chl 4
+S: deal normal damage
+SS: deal normal+3 damage
+OO: +deal 2 damage, deal critical
+A: deal -1 damage

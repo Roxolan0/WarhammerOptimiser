@@ -1,0 +1,16 @@
+Path of the Autumn Wind
+rec 4
+mis 1
+s: deal normal damage, gain 4 recharge_defence
+oo: gain recharge_this
+c: gain 2 recharge_specific
+aa: suffer stress
+----
+rec 2
+s: deal normal damage, gain 4 recharge_defence
+oo: gain recharge_this
+c: gain 2 recharge_specific
+aa: suffer stress
+----
+s: each time you remove recharge from this, remove from defence too
+con c: you may *add* 2 recharge to a WotS

@@ -1,0 +1,15 @@
+Cut & Run
+Rec 2
+For 1
+S: deal normal damage, gain disengage
+O: deal Exposed 2 rounds
+AA: suffer 1 recharge_any
+---------
+Rec 4
+Mis 1
+S: deal normal damage, gain disengage
+SS: same, deal 1 damage
+OO: deal Exposed 2 rounds
+AA: suffer 1 recharge_any
+------
+For 1 assumes that user has Athletics trained.

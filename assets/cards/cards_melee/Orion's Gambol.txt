@@ -1,0 +1,19 @@
+Orion's Gambol
+rec 3
+mis 1
+s: deal normal damage
+ss: deal normal+1 damage, gain manoeuvre
+oo: gain recharge_specific
+c: gain 2 stance
+a: suffer fatigue
+c: suffer neutral
+-----
+s: deal normal+1 damage
+ss: deal normal+2 damage, deal critical
+oo: gain recharge_specific
+c: gain 2 stance
+a: suffer fatigue
+c: suffer neutral
+-----
+con c: stance towards reckless
+rec c: conservative

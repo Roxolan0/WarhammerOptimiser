@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">WarhammerOptimiserApp</string>
+
+	<!-- Internal strings; TODO default for the menu should go -->
+	<string name="action_settings">default</string>
+	<string name="title_activity_customise_character">Customise character</string>
+	<string name="title_activity_opening_menu">Opening menu</string>
+	<string name="title_activity_optimisations">Optimisations</string>
+	<string name="title_activity_quick_character_creation">Quick character creation</string>
+
+	<!-- In multiple menus -->
+	<string name="customiseCharacter">Customise character</string>
+	<string name="optimiseCharacter">Optimise character</string>
+	<string name="strength">Strength</string>
+	<string name="toughness">Toughness</string>
+	<string name="agility">Agility</string>
+	<string name="intelligence">Intelligence</string>
+	<string name="willpower">Willpower</string>
+	<string name="fellowship">Fellowship</string>
+	<string name="conservative">Conservative</string>
+	<string name="reckless">Reckless</string>
+
+	<!-- Opening menu -->
+	<string name="warhammerOptimiser">Warhammer Optimiser</string>
+	<string name="defaultCharacterName">Nameless</string>
+	<string name="quickCharacterCreation">Quick character creation</string>
+
+	<!-- Quick character creation -->
+	<string name="name">Name</string>
+	<string name="rank">Rank</string>
+	<string name="mainCharacteristic">Main characteristic</string>
+	<string name="mainStance">Main stance</string>
+	<string name="anonymous">Anonymous</string>
+	<string name="create">Create</string>
+	<string name="skills">Skills</string>
+	<string name="ballisticSkill">Ballistic skill</string>
+	<string name="weaponSkill">Weapon skill</string>
+	<string name="versatile">Versatile</string>
+	<string name="rank0">0 (blank character)</string>
+	<string name="rank1">1 (basic)</string>
+	<string name="rank2">2 (intermediate)</string>
+	<string name="rank3">3 (advanced)</string>
+
+	<string-array name="spinRank">
+		<item>@string/rank0</item>
+		<item>@string/rank1</item>
+		<item>@string/rank2</item>
+		<item>@string/rank3</item>
+	</string-array>
+
+	<string name="allNonLegal">All (non-legal)</string>
+	<string name="noneNonLegal">None (non-legal)</string>
+
+	<string-array name="spinMainCharacteristic">
+		<item>@string/strength</item>
+		<item>@string/toughness</item>
+		<item>@string/agility</item>
+		<item>@string/intelligence</item>
+		<item>@string/willpower</item>
+		<item>@string/fellowship</item>
+		<item>@string/versatile</item>
+		<item>@string/allNonLegal</item>
+		<item>@string/noneNonLegal</item>
+	</string-array>
+
+	<string name="bothNonLegal">Both (non-legal)</string>
+	<string name="neitherNonLegal">Neither (non-legal)</string>
+
+	<string-array name="spinMainStance">
+		<item>@string/conservative</item>
+		<item>@string/reckless</item>
+		<item>@string/versatile</item>
+		<item>@string/bothNonLegal</item>
+		<item>@string/neitherNonLegal</item>
+	</string-array>
+
+	<!-- Customise character -->
+	<string name="stance">Stance</string>
+	<string name="characteristic">Characteristic</string>
+	<string name="fortune">Fortune</string>
+	<string name="equipment">Equipment</string>
+	<string name="meleeWeapon">Melee weapon</string>
+	<string name="offHandWeapon">Off-hand weapon</string>
+	<string name="rangedWeapon">Ranged weapon</string>
+	<string name="shield">Shield</string>
+	<string name="armour">Armour</string>
+	<string name="chooseActionCards">Choose action cards</string>
+	<string name="P">+</string>
+	<string name="M">-</string>
+	<string name="nothing">Nothing</string>
+	<string name="cloth">Cloth</string>
+	<string name="robes">Robes</string>
+	<string name="leather">Leather</string>
+	<string name="brigandine">Brigandine</string>
+	<string name="mailShirt">Mail shirt</string>
+	<string name="chainmail">Chainmail</string>
+	<string name="scale">Scale</string>
+	<string name="ulthuanScale">Ulthuan scale</string>
+	<string name="breastplate">Breastplate</string>
+	<string name="fullPlate">Full plate</string>
+
+	<string-array name="spinArmour">
+		<item>@string/nothing</item>
+		<item>@string/cloth</item>
+		<item>@string/robes</item>
+		<item>@string/leather</item>
+		<item>@string/brigandine</item>
+		<item>@string/mailShirt</item>
+		<item>@string/chainmail</item>
+		<item>@string/scale</item>
+		<item>@string/ulthuanScale</item>
+		<item>@string/breastplate</item>
+		<item>@string/fullPlate</item>
+	</string-array>
+
+	<string name="buckler">Buckler</string>
+	<string name="spikedBuckler">Spiked buckler</string>
+	<string name="roundShield">Round shield</string>
+	<string name="towerShield">Tower shield</string>
+
+	<string-array name="spinShield">
+		<item>@string/nothing</item>
+		<item>@string/buckler</item>
+		<item>@string/spikedBuckler</item>
+		<item>@string/roundShield</item>
+		<item>@string/towerShield</item>
+	</string-array>
+
+	<string name="dagger">Dagger</string>
+	<string name="flail">Flail</string>
+	<string name="gauntlet">Gauntlet</string>
+	<string name="greatWeapon">Great weapon</string>
+	<string name="halberd">Halberd</string>
+	<string name="handWeapon">Hand weapon</string>
+	<string name="improvisedMelee">Improvised melee</string>
+	<string name="lance">Lance</string>
+	<string name="mainGauche">Main gauche</string>
+	<string name="morningStar">Morning star</string>
+	<string name="quarterStaff">Quarter staff</string>
+	<string name="rapier">Rapier</string>
+	<string name="spear">Spear</string>
+	<string name="unarmed">Unarmed</string>
+	<string name="sabre">Sabre</string>
+
+	<string-array name="spinMeleeWeapon">
+		<item>@string/nothing</item>
+		<item>@string/dagger</item>
+		<item>@string/flail</item>
+		<item>@string/gauntlet</item>
+		<item>@string/greatWeapon</item>
+		<item>@string/halberd</item>
+		<item>@string/handWeapon</item>
+		<item>@string/improvisedMelee</item>
+		<item>@string/lance</item>
+		<item>@string/mainGauche</item>
+		<item>@string/morningStar</item>
+		<item>@string/quarterStaff</item>
+		<item>@string/rapier</item>
+		<item>@string/spear</item>
+		<item>@string/unarmed</item>
+		<item>@string/sabre</item>
+	</string-array>
+
+	<string name="blunderbuss">Blunderbuss</string>
+	<string name="crossbow">Crossbow</string>
+	<string name="crossbowPistol">Crossbow pistol</string>
+	<string name="handgun">Handgun</string>
+	<string name="hochlandLongRifle">Hochland long rifle</string>
+	<string name="improvisedRanged">Improvised ranged</string>
+	<string name="javelin">Javelin</string>
+	<string name="lasso">Lasso</string>
+	<string name="longbow">Longbow</string>
+	<string name="net">Net</string>
+	<string name="repeaterCrossbow">Repeater crossbow</string>
+	<string name="repeaterHandgun">Repeater handgun</string>
+	<string name="repeaterPistol">Repeater pistol</string>
+	<string name="shortbow">Shortbow</string>
+	<string name="sling">Sling</string>
+	<string name="spearRanged">Spear (ranged)</string>
+	<string name="staffSling">Staff sling</string>
+	<string name="throwingAxe">Throwing axe</string>
+	<string name="throwingDagger">Throwing dagger</string>
+	<string name="whip">Whip</string>
+
+	<string-array name="spinRangedWeapon">
+		<item>@string/nothing</item>
+		<item>@string/blunderbuss</item>
+		<item>@string/crossbow</item>
+		<item>@string/crossbowPistol</item>
+		<item>@string/handgun</item>
+		<item>@string/hochlandLongRifle</item>
+		<item>@string/improvisedRanged</item>
+		<item>@string/javelin</item>
+		<item>@string/lasso</item>
+		<item>@string/longbow</item>
+		<item>@string/net</item>
+		<item>@string/repeaterCrossbow</item>
+		<item>@string/repeaterHandgun</item>
+		<item>@string/repeaterPistol</item>
+		<item>@string/shortbow</item>
+		<item>@string/sling</item>
+		<item>@string/spearRanged</item>
+		<item>@string/staffSling</item>
+		<item>@string/throwingAxe</item>
+		<item>@string/throwingDagger</item>
+		<item>@string/whip</item>
+	</string-array>
+
+	<!-- Action cards -->
+	<string name="meleeActionCards">Melee action cards</string>
+	<string name="rangedActionCards">Ranged action cards</string>
+
+	<!-- Optimisations -->
+	<string name="optimisations">Optimisations</string>
+	<string name="averageDamage">Calculate the average damage</string>
+	<string name="bestActionCards">Find the best action cards</string>
+	<string name="bestEquipment">Find the best equipment</string>
+	<string name="bestStance">Find the best stance</string>
+
+	<!-- Average damage -->
+	<string name="n0">0</string>
+	<string name="n1">1</string>
+	<string name="n2">2</string>
+	<string name="n3">3</string>
+	<string name="n4">4</string>
+	<string name="n5">5</string>
+	<string name="monsterThreatRating">Monster threat rating</string>
+	<string name="meleeStrike">Melee strike (basic)</string>
+	<string name="rangedStrike">Ranged strike (basic)</string>
+	<string name="tryAnotherActionCard">Try another action card</string>
+	<string name="changeYourActionCards">Change your action cards</string>
+	<string name="skulls">skulls</string>
+	<string name="errorCardNotFound">Error: action card not found.</string>
+	<string name="computing">Computing...</string>
+	
+	<!-- Best action cards -->
+	<string name="findBest">Find best</string>
+	<string name="actionCards">action cards</string>
+	<string name="find">Find</string>
+	<string name="thisMayTakeAFewSeconds">(this may take a few seconds)</string>
+
+	<!-- Colors -->
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="blue">#3B70B7</color>
+	<color name="yellow">#EAE517</color>
+	<color name="green">#69BD45</color>
+	<color name="purple">#73439A</color>
+	<color name="red">#D02027</color>
+
+	<string name="title_activity_action_cards">ActionCards</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="title_activity_average_damage">AverageDamage</string>
+	<string name="title_activity_best_action_cards">BestActionCards</string>
+
+</resources>

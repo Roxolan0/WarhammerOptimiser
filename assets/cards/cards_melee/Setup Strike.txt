@@ -1,0 +1,13 @@
+Setup Strike
+rec 0
+mis 2
+s: deal normal-1 damage, deal exposed 2 rounds
+o: +deal exposed
+oo: +deal exposed 2 rounds
+c: suffer exposed 2 rounds
+------
+s: deal normal damage
+ss: deal normal damage, deal exposed 2 rounds
+oo: deal blinded
+a: suffer sluggish 2 rounds
+-------

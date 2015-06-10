@@ -1,0 +1,18 @@
+Called Shot
+rec 0
+mis 2
+s: deal normal damage
+ss: deal normal damage, deal rattled
+o: +deal rattled
+aa: +deal -2 damage
+----
+s: deal normal damage
+sss: deal normal damage, deal sluggish
+o: +deal sluggish
+oo: deal soak damage
+a: +deal -2 damage
+h: suffer drop_weapon
+----
+con ss: rattled or cowed
+con o: same for +1 round
+rec oo: ignore armour soak

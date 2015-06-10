@@ -1,0 +1,28 @@
+Disorienting Strike
+Rec 2
+Mis 2
+S: deal normal+ damage
+SS: deal normal+ damage, deal blind, deal 4 SPECIAL
+O: +deal blind
+A: +deal -2 damage
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 2
+Mis 2
+S: deal normal+ damage
+SSS: deal normal+ damage, deal staggered
+O: +deal staggered
+OO: deal soak+ wound
+AA: suffer drop_weapon
+H: suffer exposed 2 rounds
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical

@@ -1,0 +1,29 @@
+Duelist's Strike
+Rec 0
+Mis 1
+S: deal normal+1 damage
+SSS: deal normal+3 damage
+O: gain movement
+C: gain fortune 3 rounds
+AA: suffer misfortune
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 0
+Mis 1
+S: deal normal+1 damage
+SSS: deal normal+3 damage
+O: gain movement
+OO: deal fatigue
+C: +deal 2 damage, deal 2 damage
+A: suffer misfortune
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical

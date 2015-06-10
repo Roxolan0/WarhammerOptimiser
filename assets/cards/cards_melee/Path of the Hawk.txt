@@ -1,0 +1,15 @@
+Path of the Hawk
+rec 3
+s: deal normal damage
+sss: deal normal+2 damage
+o: gain recharge_specific
+aa: suffer recharge_this
+c: suffer recharge_this
+----
+rec 4
+s: deal normal+1 damage
+s: deal normal+2 damage
+oo: gain recharge_this
+aa: suffer recharge_this
+c: suffer 2 recharge_this
+------

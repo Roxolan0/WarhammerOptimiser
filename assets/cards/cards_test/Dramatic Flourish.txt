@@ -1,0 +1,25 @@
+Dramatic Flourish
+Rec 3
+S: deal normal-1 damage
+O: deal stress
+OO: deal stress
+C: gain allies+ stress, deal allies+ fatigue
+AA: +deal -1 damage
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 3
+S: deal normal-1 damage
+SSS: deal normal+1 damage
+OO: deal 2 stress
+A: +deal -1 damage
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical

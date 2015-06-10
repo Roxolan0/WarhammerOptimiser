@@ -1,0 +1,13 @@
+Path of Falling Water
+rec 5
+s: gain engage, deal normal-2 damage, gain disengage, gain fortune 5 rounds
+oo: +deal 2 damage
+oo: +gain 2 recharge_defence
+aa: suffer stress
+------
+s: gain engage, deal normal-1 damage, gain disengage, gain fortune 5 rounds
+oo: deal critical
+aa: suffer stress
+-------
+s: fortune to WotS while recharging
+con oo: fully recharge a defence

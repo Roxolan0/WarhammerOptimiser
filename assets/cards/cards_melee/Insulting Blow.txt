@@ -1,0 +1,18 @@
+Insulting Blow
+rec 4
+mis 2
+for 1
+s: deal normal-1 damage
+ss: same, deal 2 damage, deal rattled 2 rounds
+o: deal critical
+aa: deal -1 damage
+----
+s: deal normal-1 damage
+ss: same, deal 2 damage, deal rattled 2 rounds
+o: deal critical
+oo: deal stress
+c: deal -strength damage, deal fellowship damage
+aa: suffer stress, suffer fatigue
+----
+For 1 only if guile trained
+ss is same, extra effects are both 3 but only on success on a Guile vs Discipline check.

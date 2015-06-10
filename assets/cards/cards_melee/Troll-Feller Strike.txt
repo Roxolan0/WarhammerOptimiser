@@ -1,0 +1,21 @@
+Troll-Feller Strike
+rec 2
+mis 1
+s: deal normal+1 damage
+sss: deal normal+3 damage
+o: +deal 1 damage, +deal soak damage
+a: suffer fatigue
+c: suffer wound
+-----
+mis 0
+s: deal normal+1 damage
+sss: deal normal+3 damage
+o: +deal 1 damage, +deal soak damage
+oo: +deal 3 damage, deal critical
+c: deal critical, deal 2 wound
+a: suffer fatigue
+c: suffer wound
+-----
+May not use active defences while this is recharging.
+o: ignore armour soak
+rec c: deal critical + wound equal to its severity

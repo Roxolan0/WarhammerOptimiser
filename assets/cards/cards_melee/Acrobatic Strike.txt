@@ -1,0 +1,17 @@
+Acrobatic Strike
+rec 4
+mis 2
+S: deal normal damage
+SSS: same, deal critical
+OO: deal drop_weapon
+A: suffer fatigue
+-------
+S: deal normal damage
+SS: same, deal critical
+oo: +deal 2 damage
+A: suffer fatigue
+-------
+con s: can be agi instead of str damage
+con oo: if hand free, may grab weapon
+rec s: same
+rec oo: deal +damage = severity of the target's critical wound if any

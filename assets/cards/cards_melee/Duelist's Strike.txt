@@ -1,0 +1,19 @@
+Duelist's Strike
+rec 0
+mis 1
+s: deal normal+1 damage
+sss: deal normal+3 damage
+o: gain movement
+c: gain fortune 3 rounds
+aa: suffer misfortune
+--------
+s: deal normal+1 damage
+sss: deal normal+3 damage
+o: gain movement
+oo: deal 1 fatigue
+c: +deal 2 damage, +deal 2 damage
+a: suffer misfortune
+--------
+o: move engagement to another location within close range
+con c: duration is as long as you and you alone are engaged with the target
+rec c: +2 dmg and reduce soak by 2 for this attack

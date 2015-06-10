@@ -1,0 +1,28 @@
+High King Gotrek's Justice
+Rec 3
+Mis 2
+For 1
+S: deal normal+ damage
+SS: deal normal-1 damage, deal critical
+OO: deal 3 reduce_soak
+A: suffer fatigue
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 3
+Mis 2
+For 1
+S: deal normal+ damage
+SSS: deal normal+ damage, deal critical
+OO: deal 3 reduce_soak
+A: suffer fatigue
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical

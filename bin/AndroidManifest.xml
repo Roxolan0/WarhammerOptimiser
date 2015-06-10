@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.roxolan.warhammeroptimiserapp"
+	android:versionCode="1"
+	android:versionName="1.0" >
+
+	<uses-sdk
+		android:minSdkVersion="14"
+		android:targetSdkVersion="18" />
+
+	<application
+		android:name="com.roxolan.warhammeroptimiserapp.ApplicationExtension"
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme" >
+		<activity
+			android:name="com.roxolan.warhammeroptimiserapp.OpeningMenu"
+			android:label="@string/title_activity_opening_menu" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="com.roxolan.warhammeroptimiserapp.QuickCharacterCreation"
+			android:label="@string/title_activity_quick_character_creation" >
+		</activity>
+		<activity
+			android:name="com.roxolan.warhammeroptimiserapp.Optimisations"
+			android:label="@string/title_activity_optimisations" >
+		</activity>
+		<activity
+			android:name="com.roxolan.warhammeroptimiserapp.CustomiseCharacter"
+			android:label="@string/title_activity_customise_character" >
+		</activity>
+		<activity
+			android:name="com.roxolan.warhammeroptimiserapp.ActionCards"
+			android:label="@string/title_activity_action_cards" >
+		</activity>
+		<activity
+			android:name="com.roxolan.warhammeroptimiserapp.AverageDamage"
+			android:label="@string/title_activity_average_damage" >
+		</activity>
+		<activity
+			android:name="com.roxolan.warhammeroptimiserapp.BestActionCards"
+			android:label="@string/title_activity_best_action_cards" >
+		</activity>
+	</application>
+
+</manifest>

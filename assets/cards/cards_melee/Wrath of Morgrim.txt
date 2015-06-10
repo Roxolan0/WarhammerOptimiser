@@ -1,0 +1,18 @@
+Wrath of Morgrim
+rec 2
+s: deal normal damage
+ss: deal normal+2 damage
+oo: +deal 2 damage
+a: suffer recharge_this
+----
+s: deal normal damage
+sss: deal normal+2 damage
+oo: +deal 2 damage
+c: +deal 3 damage
+a: suffer 2 recharge_this
+h: suffer critical
+----
+ws = wounds suffered, rounded up
+oo: +1 damage per 3 ws
+rec c: +1 damage per 2 ws
+rec h: turn wound into critical

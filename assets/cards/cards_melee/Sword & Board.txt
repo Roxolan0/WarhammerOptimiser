@@ -1,0 +1,16 @@
+Sword & Board
+rec 2
+s: deal normal-1 damage
+sss: deal normal+1 damage
+o: gain recharge_defence
+c: gain 2 recharge_defence
+aa: face disengage
+---
+rec 3
+s: deal normal damage
+o: gain 2 recharge_defence
+aa: face disengage
+c: suffer drop_shield
+---
+con o: Block
+con c, rec o: fully recharge Block

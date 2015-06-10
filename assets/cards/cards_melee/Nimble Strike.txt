@@ -1,0 +1,10 @@
+Nimble Strike
+rec 2
+s: deal normal-strength damage, deal agility damage
+o: deal critical
+aa: suffer 2 recharge_this
+------
+s: deal normal-strength damage, deal agility damage
+sss: same, deal 1 damage, deal critical
+oo: deal staggered
+a: suffer fatigue

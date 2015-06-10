@@ -1,0 +1,28 @@
+Double Strike (errata)
+Rec 2
+Mis 1
+S: deal normal+ damage
+SSS: deal normal+ damage, deal secondary+ damage
+O: +deal damage
+OO: +deal damage
+AA: suffer fatigue
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 2
+Mis 1
+S: deal normal+ damage
+SS: deal normal+ damage, deal secondary+ damage
+OO: +deal 2 damage
+C: deal normal+ damage
+AA: suffer fatigue
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical

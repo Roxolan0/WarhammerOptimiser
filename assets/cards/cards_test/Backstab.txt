@@ -1,0 +1,26 @@
+Backstab
+Rec 4
+Mis 1
+S: deal normal+ damage
+SS: deal normal+ damage, deal 2 damage
+OO: gain manoeuvre
+AA: +deal -2 damage
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 4
+Mis 1
+S: deal normal+1 damage
+SS: deal normal+1 damage, deal soak+ wound
+OO: +deal 2 damage
+AA: suffer 2 recharge_this
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical

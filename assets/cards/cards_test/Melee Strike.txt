@@ -1,0 +1,24 @@
+Melee Strike
+Rec 0
+S: deal normal+ damage
+SSS: deal normal+ damage, deal 2 damage
+OO: gain manoeuvre
+AA: face disengage
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 0
+S: deal normal+ damage
+SSS: deal normal+ damage, deal 2 damage
+OO: gain manoeuvre
+AA: face disengage
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical

@@ -1,0 +1,18 @@
+Judgment of Vengeance
+rec 3
+mis 2
+s: deal normal damage
+ss: deal normal+3 damage
+oo: gain 3 stress
+c: +deal 1 damage, deal 2 critical
+aa: suffer 2 fatigue
+--------
+s: deal normal damage
+ss: deal normal+3 damage
+oo: gain 3 fatigue
+c: +deal 1 damage, deal 2 critical
+--------
+Assumed suffering critical wound of severity 3.
+con ss: normal+severity
+oo: [severity] stress/fatigue
+rec h: everyone engaged suffers insanity while this recharges

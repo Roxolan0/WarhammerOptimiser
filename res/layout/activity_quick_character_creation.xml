@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context=".QuickCharacterCreation" >
+
+	<!-- Main vertical layout -->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+		<!-- Appropriate layouts for each line of the vertical layout -->
+	
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+			<TextView
+				android:id="@+id/textMainTitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:text="@string/quickCharacterCreation"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+		</RelativeLayout>
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="@color/black" />
+		
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/textRank"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/rank"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+			<Spinner
+				android:id="@+id/spinRank"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/textCharacteristic"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/mainCharacteristic"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+			<Spinner
+				android:id="@+id/spinMainCharacteristic"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/textStance"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/mainStance"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+			<Spinner
+				android:id="@+id/spinMainStance"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/textName"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/name"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+			<EditText
+				android:id="@+id/editTextName"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:hint="@string/anonymous"
+				android:inputType="textCapWords" />
+		</LinearLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+			<Button
+				android:id="@+id/buttonCreationCreate"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:text="@string/create"
+				android:onClick="confirmCreation" />
+		</RelativeLayout>
+	</LinearLayout>
+
+</ScrollView>

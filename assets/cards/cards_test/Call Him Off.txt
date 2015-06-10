@@ -1,0 +1,26 @@
+Call Him Off
+Rec 3
+Cha 1
+S: deal fel+3 damage
+SS: deal fel+3 damage, deal sluggish 3 rounds
+OO: deal critical
+AA: suffer obedience
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 3
+Cha 1
+S: deal fel+4 damage
+SSS: deal fel+4 damage, deal soak+ wound
+O: deal critical
+AA: suffer obedience
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical

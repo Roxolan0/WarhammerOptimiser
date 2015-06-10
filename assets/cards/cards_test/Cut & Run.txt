@@ -1,0 +1,26 @@
+Cut & Run
+Rec 2
+For 1
+S: deal normal+ damage, deal disengage
+O: deal exposed 2 rounds
+AA: suffer recharge_any
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 4
+Mis 1
+For 1
+S: deal normal+ damage, deal disengage
+SS: deal normal+ damage, deal disengage, deal damage
+OO: deal exposed 2 rounds
+AA: suffer recharge_any
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical

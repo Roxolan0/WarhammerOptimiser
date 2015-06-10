@@ -1,0 +1,18 @@
+Skalf's Anvil
+rec 2
+chl 1
+for 1
+s: deal normal damage, gain allies fortune 2 rounds
+oo: gain fatigue
+c: deal staggered 3 rounds
+aa: face disengage
+----
+s: deal normal damage, deal enemies misfortune 2 rounds
+oo: deal fatigue
+c: deal staggered 3 rounds
+aa: face disengage
+----
+for 1 only if engaged with an ally
+con s: while recharging, allies gain for against target.
+rec s: similar (enemies, against you)
+rec oo: deal OR gain 1 fatigue

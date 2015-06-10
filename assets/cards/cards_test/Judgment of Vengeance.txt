@@ -1,0 +1,27 @@
+Judgment of Vengeance
+Rec 3
+Mis 2
+S: deal normal+ damage
+SS: deal normal+3 damage
+OO: gain 3 stress
+C: +deal damage, deal 2 critical
+AA: suffer 2 fatigue
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 3
+Mis 2
+S: deal normal+ damage
+SS: deal normal+3 damage
+OO: gain 3 fatigue
+C: +deal damage, deal 2 critical
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical

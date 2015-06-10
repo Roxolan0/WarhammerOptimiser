@@ -1,0 +1,16 @@
+Final Stroke of the Master
+rec 4
+chl 4
+s: deal normal damage, gain 4 recharge_this
+ss: deal normal+3 damage
+oo: +deal 1 damage, deal critical
+c: deal 2 damage, deal 4 damage
+aa: deal -1 damage
+------
+s: deal normal damage
+ss: deal normal+3 damage
+oo: +deal 2 damage, deal critical
+a: deal -1 damage
+------
+ss: normal, +1 per recharge token on Way of the Sword cards.
+con c: 2 damage, 1 critical chosen amongst 3

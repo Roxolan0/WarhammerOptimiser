@@ -1,0 +1,16 @@
+Backstab
+rec 4
+mis 1
+s: deal normal damage
+ss: same, deal 2 damage
+oo: gain manoeuvre
+aa: +deal -2 damage
+-------
+s: deal normal+1 damage
+ss: same, deal soak wound
+oo: +deal 2 damage
+aa: suffer 2 recharge_this
+-------
+Assumed 2 allies engaged with ennemy
+-1 mis per engaged ally
+con ss: +1 dmg per engaged ally

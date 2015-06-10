@@ -1,0 +1,20 @@
+Double Strike (errata)
+rec 2
+mis 1
+s: deal normal damage
+sss: deal normal damage, deal secondary damage, deal -soak damage
+o: +deal 1 damage
+oo: +deal 1 damage
+aa: suffer 1 fatigue
+------------
+s: deal normal damage
+ss: deal normal damage, deal secondary damage
+oo: +deal 2 damage
+c: deal normal damage, deal -soak damage
+aa: suffer 1 fatigue
+----------
+normal & secondary dealt separately
+con o: +1 to normal
+con oo: +1 to secondary
+rec oo: +2 to normal
+rec c: to second target (so soak again)

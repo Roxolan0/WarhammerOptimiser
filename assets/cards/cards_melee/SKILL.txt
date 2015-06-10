@@ -1,0 +1,6 @@
+SKILL
+rec 0
+s: deal SPECIAL
+--
+s: deal SPECIAL
+--

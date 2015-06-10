@@ -1,0 +1,19 @@
+Beat Back
+Rec 4
+For 1
+S: deal normal damage
+SS: same, deal disengage
+O: gain recharge_any
+OO: gain group recharge_any
+C: deal sluggish 3 rounds
+A: suffer recharge_this
+--------
+Rec 4
+Mis 1
+For 1
+S: deal normal damage
+O: gain recharge_any
+C: deal sluggish 3 rounds
+A: suffer recharge_this
+H: suffer recharge_defence
+-------

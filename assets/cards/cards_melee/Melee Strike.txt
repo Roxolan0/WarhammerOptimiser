@@ -1,0 +1,12 @@
+Melee Strike
+Rec 0
+S: deal normal damage
+SSS: same, deal 2 damage
+OO: gain manoeuvre
+AA: face disengage
+--------
+S: deal normal damage
+SSS: same, deal 2 damage
+OO: gain manoeuvre
+AA: face disengage
+--------

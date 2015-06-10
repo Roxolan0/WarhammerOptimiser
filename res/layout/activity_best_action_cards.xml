@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context=".BestActionCards" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+
+			<TextView
+				android:id="@+id/textThreatRating"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_centerHorizontal="true"
+				android:text="@string/monsterThreatRating"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+
+			<ToggleButton
+				android:id="@+id/toggleButtonSkull0"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/skull_toggle_button"
+				android:gravity="center"
+				android:onClick="skullButton"
+				android:textOff="0"
+				android:textOn="0" />
+
+			<ToggleButton
+				android:id="@+id/toggleButtonSkull1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/skull_toggle_button"
+				android:gravity="center"
+				android:onClick="skullButton"
+				android:textOff="1"
+				android:textOn="1" />
+
+			<ToggleButton
+				android:id="@+id/toggleButtonSkull2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/skull_toggle_button"
+				android:gravity="center"
+				android:onClick="skullButton"
+				android:textOff="2"
+				android:textOn="2" />
+
+			<ToggleButton
+				android:id="@+id/toggleButtonSkull3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/skull_toggle_button"
+				android:gravity="center"
+				android:onClick="skullButton"
+				android:textOff="3"
+				android:textOn="3" />
+
+			<ToggleButton
+				android:id="@+id/toggleButtonSkull4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/skull_toggle_button"
+				android:gravity="center"
+				android:onClick="skullButton"
+				android:textOff="4"
+				android:textOn="4" />
+
+			<ToggleButton
+				android:id="@+id/toggleButtonSkull5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/skull_toggle_button"
+				android:gravity="center"
+				android:onClick="skullButton"
+				android:textOff="5"
+				android:textOn="5" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+
+			<TextView
+				android:id="@+id/textFindBest"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/findBest"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<Button
+				android:id="@+id/buttonMNbCards"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/M" />
+
+			<TextView
+				android:id="@+id/textNbCards"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:maxLength="2"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+
+			<Button
+				android:id="@+id/buttonPNbCards"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/P" />
+
+			<TextView
+				android:id="@+id/textActionCards"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/actionCards"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		</LinearLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+
+			<Button
+				android:id="@+id/buttonFind"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_centerHorizontal="true"
+				android:onClick="findBestActionCards"
+				android:text="@string/find" />
+
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:layout_below="@id/buttonFind"
+				android:text="@string/thisMayTakeAFewSeconds"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:id="@+id/layoutActionCards"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+		</LinearLayout>
+	</LinearLayout>
+
+</ScrollView>

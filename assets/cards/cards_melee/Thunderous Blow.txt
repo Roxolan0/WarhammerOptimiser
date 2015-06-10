@@ -1,0 +1,14 @@
+Thunderous Blow
+rec 4
+s: deal normal damage
+sss: same, deal critical
+oo: deal critical
+aa: suffer fatigue
+---
+s: deal normal damage
+ss: same, deal critical
+o: deal critical
+c: deal dr damage
+a: suffer fatigue
+c: suffer 2 recharge_this
+---

@@ -1,0 +1,19 @@
+Grapple
+rec 2
+mis 2
+S: deal immobilized 2 rounds
+SSS: same, deal misfortune 2 rounds
+OO: +deal immobilized
+C: +deal immobilized, deal fatigue
+A: suffer fatigue
+-------
+rec 4
+S: deal unarmed damage, deal misfortune 4 rounds
+SS: same, +deal 1 damage
+C: +deal misfortune 1 round, deal fatigue
+A: suffer fatigue
+------
+con S: complicated effect while recharging
+con SSS: while recharging
+con OO: add recharge token
+rec S: while recharging

@@ -1,0 +1,15 @@
+Call Him Off
+Rec 3
+Chl 1
+S: deal 3+Fel damage
+SS: same, deal Sluggish 3 rounds
+OO: deal critical
+AA: suffer obedience
+---------
+S: deal 4+Fel damage
+SSS: same, deal soak wound
+O: deal critical
+AA: suffer obedience
+-------
+Con SS was complicated effect
+Rec SSS was ignores armour soak

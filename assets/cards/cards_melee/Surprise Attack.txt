@@ -1,0 +1,14 @@
+Surprise Attack
+rec 0
+s: deal normal damage
+ss: deal normal damage, deal -str damage, deal agi damage
+oo: deal 2 damage
+aa: face fortune
+----
+s: deal normal damage
+ss: deal normal+2 damage
+oo: +deal -str damage, +deal agi damage
+aa: face fortune
+----
+con oo: ignore 2 armour soak
+rec ss: ignore 2 armour soak

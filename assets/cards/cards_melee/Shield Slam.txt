@@ -1,0 +1,17 @@
+Shield Slam
+rec 4
+for 1
+s: deal 3+str damage
+ss: deal 5+str damage
+oo: deal prone
+c: gain expertise
+aa: suffer recharge_defence
+----
+s: deal 4+str damage
+o: deal prone
+c: gain expertise
+a: suffer recharge_defence
+----
+for 1 only if Weapon SKill trained
+c: expertise on next Weapon Skill check
+con aa, rec a: 1 recharge to Block if already recharging, else 2.

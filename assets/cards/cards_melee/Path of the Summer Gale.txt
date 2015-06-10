@@ -1,0 +1,18 @@
+Path of the Summer Gale
+rec 3
+mis 1
+s: deal normal damage, deal conservative damage 3 rounds
+ss: same
+oo: deal 2 damage
+aa: suffer stress
+----
+mis 2
+s: deal normal damage, deal 2 damage 3 rounds
+sss: same, deal 2 damage, deal 2 damage, suffer recharge_this
+oo: deal 3 damage
+aa: suffer stress, suffer fatigue
+----
+con s: while recharging, Way of the Sword actions deal bonus damage equal to depth in conservative.
+con ss: same, 1 recharge_this (which is unlikely to make a difference either way).
+rec s: while recharging, WotS deal 2 bonus damage.
+con sss: 1 recharge_this (which may make a difference)

@@ -1,0 +1,18 @@
+Disorienting Strike
+Rec 2
+Mis 2
+S: deal normal damage
+SS: same, deal blinded, deal 4 SPECIAL
+O: +deal blinded
+A: +deal -2 damage
+-------
+S: deal normal damage
+SSS: same, deal staggered
+O: +deal staggered
+OO: deal soak wound
+AA: suffer drop_weapon
+H: suffer exposed 2 rounds
+-------
+Con SS: was Blinded OR Exposed
+Con O: was increase duration of B/E
+Rec OO: was ignore armour soak

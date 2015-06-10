@@ -1,0 +1,21 @@
+Tooth & Nail
+rec 4
+s: deal normal damage
+ss: deal normal+fel damage
+oo: gain manoeuvre
+c: suffer 2 obedience, deal 2 damage
+a: suffer 1 obedience
+--------
+chl 1
+for 2
+s: deal normal damage
+ss: deal normal damage, deal 3+fel damage
+oo: gain manoeuvre
+c: +deal 2 critical
+a: suffer 1 obedience
+--------
+con: chl 1 if not trained in Weapon Skill
+con ss: alternatively, the pet can perform the manoeuvre
+con c: UP TO 2 of each
+rec oo: or pet can maoeuvre
+rec c: deal critical to those hit by attack (so only one if no ss)

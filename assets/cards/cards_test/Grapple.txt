@@ -1,0 +1,27 @@
+Grapple
+Rec 2
+Mis 2
+S: deal immobilized 2 rounds
+SSS: deal immobilized 2 rounds, deal misfortune 2 rounds
+OO: +deal immobilized
+C: +deal immobilized, deal fatigue
+A: suffer fatigue
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
+--------
+Rec 4
+Mis 2
+S: deal unarmed+ damage, deal misfortune 4 rounds
+SS: deal unarmed+ damage, deal misfortune 4 rounds, deal damage
+C: +deal misfortune, deal fatigue
+A: suffer fatigue
+OO: gain fatigue
+AA: suffer fatigue
+D: suffer 2 recharge_any
+E: suffer fatigue
+C: deal critical
+OOO: deal critical
